@@ -30,6 +30,10 @@ const config: Configuration = {
 					},
 				],
 			},
+			{
+				test: /\.geojson$/,
+				type: 'json',
+			},
 		],
 	},
 	resolve: {
